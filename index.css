@@ -411,3 +411,13 @@ footer {
   max-height: 200px;
   max-width: 200px;
 }
+#codingProjects,
+#analysisProjects {
+  margin-top: 2%;
+}
+#dataInsightSkills {
+  padding-left: 25%;
+}
+#cycleSkills {
+  padding-left: 40%;
+}
