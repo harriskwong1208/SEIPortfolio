@@ -1,0 +1,409 @@
+body {
+  background-color: black;
+  font-family: "Lato";
+  color: white;
+}
+.Header {
+  display: grid;
+  grid-template-columns: 0.7fr 0.3fr;
+  grid-template-rows: 350px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.Header .Intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pfp_Img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+#pfp_Img img {
+  height: 85%;
+}
+.Header .Intro .Name {
+  color: white;
+  font-size: 20px;
+}
+.Header .Intro .Position {
+  color: rgb(124, 154, 189);
+  font-size: 90px;
+}
+.Header .Intro .LinkedIn {
+  color: white;
+  border-bottom: solid rgb(124, 154, 189);
+  text-decoration: none;
+  font-size: 20px;
+}
+.Header .Intro .LinkedIn:visited {
+  color: white;
+}
+
+.Header .Img {
+}
+.Header .imgContainer {
+}
+.Header img {
+  max-width: 300px;
+}
+.About,
+.FitForSEI,
+.Skills,
+.WorkExperience,
+.projects {
+  margin-left: 1%;
+  margin-right: 1%;
+  color: rgb(124, 154, 189);
+}
+.About .title,
+.Skills .title,
+.WorkExperience .title,
+.projects .title {
+  display: flex;
+}
+.About .title #about,
+.Skills .title #skills,
+.WorkExperience .title #work,
+.projects .title #projects {
+  flex: 0.2fr;
+  font-size: 40px;
+}
+
+.About .title #line hr,
+.Skills .title #line hr,
+.WorkExperience .title #line hr {
+  width: 1000px;
+  border-color: rgb(124, 154, 189);
+}
+.WorkExperience .title #line hr {
+  width: 1000px;
+}
+
+.About .description,
+.FitForSEI .description {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 40%;
+  margin: 0 auto;
+  font-size: 21px;
+  color: white;
+}
+#discordImg {
+  max-height: 170px;
+  max-width: 170px;
+}
+
+.Skills .item-container {
+  margin-right: 1.5%;
+  padding: 2% 0 2% 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: centers;
+}
+.Skills .item-container .item {
+  color: white;
+}
+
+.Skills .item-container .item .title {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Skills .item-container .item .experience {
+  font-size: 20px;
+  color: rgb(156, 158, 160);
+  text-align: center;
+}
+.Skills .item-container .item .experience span {
+  border-bottom: solid rgb(124, 154, 189);
+  padding-bottom: 0.5%;
+}
+
+#frontEnd,
+#backEnd {
+  font-size: 22px;
+}
+.WorkExperience .item-container {
+}
+.WorkExperience .item-container .title {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  padding: 1% 0 1% 0;
+  color: white;
+}
+.WorkExperience .item-container .title span {
+  color: rgb(156, 158, 160);
+  border-bottom: solid rgb(124, 154, 189);
+}
+.WorkExperience .item-container .Img {
+  display: flex;
+  justify-content: center;
+}
+.WorkExperience .item-container .description {
+  width: 60%;
+  margin: 1% auto 0 auto;
+  font-size: 20px;
+  line-height: 1.5;
+  color: white;
+}
+#pythonItem {
+  margin-right: 6%;
+}
+#sqlItem {
+  margin-right: 3.5%;
+  padding-right: 0.3%;
+}
+#azureitem {
+  margin-right: 5.3%;
+}
+#frontEndItem {
+  margin-left: 1%;
+}
+#javaItem {
+  margin-left: 7.5%;
+}
+#firebaseItem {
+  margin-left: 6.6%;
+}
+#backEndItem {
+  margin-right: 5%;
+}
+#mongodbItem {
+  margin-left: 3%;
+}
+#awsItem {
+  margin-left: 0.9%;
+  padding-left: 0.5%;
+}
+
+#otakuhub .skills span {
+  margin-left: 9%;
+}
+#otakuhub {
+}
+#otakuhub .img {
+  width: 65%;
+  height: 250px;
+}
+#otakuhub img {
+  width: 100%;
+}
+#studysync .skills span {
+  margin-right: 15%;
+}
+
+#rpg {
+  margin-top: 3%;
+}
+#rpg .img {
+  width: 500px;
+}
+#rpg .title {
+  margin-left: 18.5%;
+}
+#rpg .skills {
+  margin-right: 22.5%;
+}
+#rpg .description {
+  width: 25%;
+}
+
+.newLine {
+  margin-top: 1%;
+  border: solid 1px rgb(124, 154, 189);
+  width: 100%;
+}
+.project_items {
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  grid-row-gap: 20px;
+  width: 100%;
+  justify-content: space-around;
+  column-gap: 1%;
+}
+.project_item {
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(126, 160, 199);
+}
+.project_item .type {
+  color: rgb(255, 255, 255);
+  padding-bottom: 2%;
+  text-align: center;
+}
+.project_title {
+  padding: 1% 0 3% 0;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.project_title > a,
+a:visited {
+  color: rgb(124, 154, 189);
+  text-decoration: none;
+}
+.project_title a:hover {
+  color: rgb(205, 213, 245);
+}
+.project_title span {
+  border-bottom: solid 0.1px rgb(204, 204, 204);
+  padding: 0.5% 1%;
+}
+.project_skills {
+  border-top: grey solid 0.1px;
+  border-bottom: grey solid 0.1px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.project_skills .skills {
+  font-size: 1.1rem;
+  padding: 5% 0;
+  text-align: center;
+  color: rgb(179, 168, 168);
+}
+.project_skills .skills span {
+  border-bottom: solid 1px rgb(126, 160, 199);
+}
+.project_item .imgContainer {
+  width: 500px;
+  margin: 0 auto;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project-img {
+  width: 100%;
+}
+
+.project_description {
+  padding: 4% 10%;
+  font-size: 1rem;
+  color: white;
+}
+
+.temp {
+  margin-left: 1%;
+  margin-right: 1%;
+  color: rgb(124, 154, 189);
+}
+.temp #tempskills {
+  font-size: 40px;
+}
+.temp .tempitem-container {
+  margin: 1% 0;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.tempitem {
+  padding: 4% 0 0 0;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 4px rgb(124, 154, 189);
+}
+.tempitem .temptitle {
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+  flex: 0.7;
+}
+.tempexperience {
+  flex: 0.3;
+}
+.tempitem .tempexperience span {
+  color: grey;
+  font-size: 1rem;
+  border-bottom: 0.1px solid rgb(124, 154, 189);
+}
+
+footer {
+  padding: 2% 0;
+  font-size: 1rem;
+  color: rgb(126, 160, 199);
+  text-align: center;
+}
+#githubLink,
+#githubLink > :visited {
+  text-decoration: none;
+}
+#githubLink:hover {
+  color: rgb(207, 207, 207);
+}
+@media (max-width: 1225px) {
+  .projects {
+  }
+  .project_items {
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    grid-row-gap: 20px;
+    justify-content: space-around;
+  }
+  .project_item .imgContainer {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 965px) {
+  .Header {
+    grid-template-columns: 1fr;
+  }
+  .Header .Intro {
+  }
+  .Header #pfp_Img {
+    padding: 0 0;
+  }
+  .Header .imgContainer {
+    margin-left: 3%;
+    padding: 0 0;
+  }
+
+  .temp .tempitem-container {
+    grid-template-columns: repeat(1, 200px);
+  }
+
+  .tempitem .temptitle {
+    font-size: 0.9rem;
+  }
+
+  .tempitem .tempexperience span {
+    font-size: 0.7rem;
+  }
+  .About .description,
+  .WorkExperience .item .description {
+    font-size: 1rem;
+  }
+
+  .WorkExperience .item .title {
+    font-size: 1.2rem;
+    padding: 5% 0 5% 0;
+  }
+  .project_item .imgContainer {
+    width: 50%;
+    min-width: 250px;
+  }
+  .project_skills {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+#secondItem {
+  margin-top: 4%;
+}
