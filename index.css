@@ -407,3 +407,7 @@ footer {
 #secondItem {
   margin-top: 4%;
 }
+#templePic {
+  max-height: 200px;
+  max-width: 200px;
+}
