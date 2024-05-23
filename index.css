@@ -339,6 +339,7 @@ footer {
 #githubLink,
 #githubLink > :visited {
   text-decoration: none;
+  color: rgb(126, 160, 199);
 }
 #githubLink:hover {
   color: rgb(207, 207, 207);
